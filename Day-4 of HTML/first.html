@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <h1 >
+        University Registration Form
+    </h1>
+
+    <p>Please Fill out the form.</p>
+
+    <hr>
+
+    <form>
+
+    <h2>Personal Details</h2>
+
+
+    <label for="First Name"> First Name</label>
+    <input type="text" name="First Name" id="First Name" placeholder="e.g. Arjun" required>
+
+    <br><br>
+    <label for="Last Name"> Last Name</label>
+    <input type="text" name="Last name" id="Last Name" placeholder="e.g. Kumar" required>
+    <br><br>
+
+    <label for="DOB"> Date of Birth :</label>
+    <input type="date" name="DOB" id="DOB" required>
+    <br><br>
+
+    <h3>Gender</h3>
+    <label for="Male">Male</label>
+    <input type="radio" name="Gen" id="Male" value="Male">
+    <br><br>
+
+    <label for="Female">Female</label>
+    <input type="radio" name="Gen" id="Female" value="Female">
+    <br><br>
+
+    <label for="Other">Other</label>
+    <input type="radio" name="Gen" id="Other" value="Other">
+    <br><br>
+
+    <h3>Upload Your Photo</h3>
+    <input type="file" name="file">
+    <hr>
+
+
+    <h2>Contact Information</h2>
+
+    <label for="Email">Email address</label>
+    <input type="email" name="Email" id="Email" required>
+    <br><br>
+
+    <label for="Phone">Phone Number</label>
+    <input type="tel" name="Phone" id="Phone" required>
+    <br><br>
+
+    <label for="Address">Mailing Address</label>
+    <br>
+    <textarea name="Address" id="Area" rows="10" cols="20" placeholder="e.g. Zip code, block address " required></textarea>
+    <br><br>
+
+    <hr>
+
+    <h2>Academic Information</h2>
+
+    <label for="Course">Select Your Course</label>
+    <Select name="Course" id="Course">
+        <option value="CSE">CSE</option>
+        <option value="Mechanical">Mechnaical</option>
+        <option value="Civil">Civil</option>
+    </Select>
+    <br><br>
+
+    <h3>ExtraCurricular Interests</h3>
+    <br>
+
+    <label for="sports">Sports</label>
+    <input type="checkbox" name=" interest" id="sports" value="sports">
+    <br><br>
+
+    <label for="Music And Arts">Music And Arts</label>
+    <input type="checkbox" name="interest" id="Music" value="Music">
+    <br><br>
+
+    <label for="Technology Clubs">Technology Clubs</label>
+    <input type="checkbox" name="Interests" id=" Technology" value="Technology">
+    <br><br>
+
+    <label for="Volunteering">Volunteering</label>
+    <input type="checkbox" name="Interests" id="Volunteering" value="Volunteering">
+    <br><br>
+
+    <hr>
+
+    <h2>Create Your Account</h2>
+
+    <label for="Pass">Create a Password</label>
+    <input type="password" name="password" id="Pass">
+    <br><br>
+
+    <label for="Security Question">Security Question</label>
+         <select name="Security Question" id="Security Question">
+             <option value="What is Capital of India?">What is Capital of India?</option>
+             <option value="Where is Burj Khalifa Situated?">Where is Burj Khalifa Situated?</option>
+        </select>
+
+    <br><br>
+
+    <label for="Answer">Security Answer</label>
+    <input type="text" name="Security Question" id="Answer">
+    <br><br>
+
+   
+    <input type="checkbox" name="Agree" id="Agree" >
+     <label for="Agree">I Agree all the Terms and Conditions.</label>
+    <br><br>
+
+    <button type="submit">Register</button>
+    <button type="reset">Clear Form</button> <br>
+
+    <button type="submit">submit</button>
+
+    </form>
+</body>
+</html>
