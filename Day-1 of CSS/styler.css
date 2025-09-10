@@ -1,0 +1,77 @@
+/* Seleted on the Basis of the Element/Tag Selector */
+
+/*h1{
+    background-color: blue;
+}
+
+h2{
+    background-color: aquamarine;
+    font-size: 30px;
+}
+ul{
+    background-color: peachpuff;
+} */
+
+
+/* Selecting on the basis of the ID Selector by using # */
+/*
+#first{
+    background-color: azure;
+}
+
+#second{
+    background-color: yellowgreen;
+}
+
+#third{
+    background-color: blueviolet;
+}  */
+
+/* Class Based Selection */
+/*
+.Third{
+    background-color: green;
+}
+    */
+
+/* Group based Selection */
+/*
+h1, .fifth {
+    background-color:aqua;
+} */
+
+/* RGB COLOR */
+/*
+h1{
+    background-color: rgba(200,45,83,0.59)
+}*/
+
+/* hsla color */
+/*
+h2{
+    background-color: hsla(360,50%,50%,0.87);
+}*/
+
+/* HexaDecimal Color */
+/*
+h1{
+    background-color: #237383;
+}*/
+
+/* FONT */
+/*
+h2{
+    font-style: italic;
+    font-weight: 900;
+    font-size: 1em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+    */
+
+    /* Short Hand Way */
+
+    h2{
+        font: italic 900 1rem Georgia , 'Times New Roman', Times, Serif;
+    }
+
+
