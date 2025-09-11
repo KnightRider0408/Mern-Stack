@@ -1,0 +1,7 @@
+Today, I learn about the CSS ( Inline, Internal, External).
+Also , get to know about the Selector (Element, Id, Class, Group ).
+Learn about the RGB color , rgba , HSL, hsla and the Hexadecimal Color.
+Get to know about the font size ( in px, em , rem, vw, vh, % ).
+Also, learn about the Font family ( font-family: "Gillsans","serif" .
+Also, Font-weight, Font-Style.
+Another Shortcut method for it : By using the Font Shorthand Way (i.e., h{ font-style:Italic; font-weight: 700; font-size: 1rem; font-family: Georgia,serif; }  ).
