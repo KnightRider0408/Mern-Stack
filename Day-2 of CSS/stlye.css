@@ -1,0 +1,35 @@
+
+h1{
+    background-color: orange;
+    height: 50px;
+    width: 300px;
+
+    /* border-width: 5px;
+    border-style: solid;
+    border-color: black; */
+
+    /* Short form (order is changeable) */
+
+    border: 10px solid green;
+    padding: 50px;
+    margin: 50px;
+}
+
+h2{
+    background-Color: pink;
+    height: 50px;
+    width: 300px;
+    border: 10px solid #750edd;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 20px;
+}
+
+p{
+    background-Color: rgb(219, 135, 24);
+    border: 5px dashed #76d049;
+    padding: 10px;
+    margin: 50px;
+    border-radius: 10px;
+}
+
